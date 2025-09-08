@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorcycle Accident Claims - Get Up to £493,000+ Compensation | Advice.co.uk</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><radialGradient id="a" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="rgba(255,255,255,0.1)"/><stop offset="100%" stop-color="rgba(255,255,255,0)"/></radialGradient></defs><circle cx="200" cy="200" r="3" fill="rgba(255,255,255,0.3)"/><circle cx="800" cy="300" r="2" fill="rgba(255,255,255,0.2)"/><circle cx="300" cy="700" r="4" fill="rgba(255,255,255,0.1)"/><circle cx="600" cy="500" r="2" fill="rgba(255,255,255,0.3)"/></svg>');
+            animation: float 20s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(5deg); }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero-text h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, #fff 0%, #e8f4fd 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+        }
+
+        .hero-text .subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            color: #b8d4f0;
+            font-weight: 300;
+        }
+
+        .compensation-highlight {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
+            padding: 20px 30px;
+            border-radius: 15px;
+            margin: 2rem 0;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        .compensation-highlight h3 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero-form {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero-form h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            color: #fff;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #e8f4fd;
+            font-weight: 500;
+        }
+
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .form-group input:focus, .form-group textarea:focus {
+            outline: none;
+            background: white;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .cta-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 2rem;
+        }
+
+        .btn {
+            padding: 18px 35px;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            text-align: center;
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .btn:hover::before {
+            left: 100%;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
+            color: white;
+            box-shadow: 0 10px 30px rgba(255, 107, 107, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 107, 107, 0.4);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .phone-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #fff;
+            text-align: center;
+            margin: 1rem 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .features-section {
+            padding: 100px 0;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 2rem;
+            color: white;
+        }
+
+        .compensation-section {
+            padding: 100px 0;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+        }
+
+        .compensation-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .compensation-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .compensation-card:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-5px);
+        }
+
+        .compensation-amount {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #ff6b6b;
+            margin-bottom: 15px;
+        }
+
+        .process-section {
+            padding: 100px 0;
+            background: white;
+        }
+
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .process-step {
+            text-align: center;
+            position: relative;
+        }
+
+        .process-step::after {
+            content: '';
+            position: absolute;
+            top: 40px;
+            right: -20px;
+            width: 40px;
+            height: 2px;
+            background: #ff6b6b;
+        }
+
+        .process-step:last-child::after {
+            display: none;
+        }
+
+        .step-number {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 0 auto 20px;
+        }
+
+        .testimonials-section {
+            padding: 100px 0;
+            background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .testimonial-card::before {
+            content: '"';
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-size: 4rem;
+            color: #ff6b6b;
+            opacity: 0.3;
+        }
+
+        .section-title {
+            font-size: 3rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section-subtitle {
+            font-size: 1.2rem;
+            text-align: center;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .cta-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .footer {
+            background: #1a1a2e;
+            color: white;
+            padding: 60px 0 30px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+
+        .footer-section h4 {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            color: #ff6b6b;
+        }
+
+        .footer-section a {
+            color: #b8d4f0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: #ff6b6b;
+        }
+
+        @media (max-width: 768px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero-text h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-form {
+                margin-top: 40px;
+                padding: 30px 20px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Motorcycle Accident Claims</h1>
+                    <p class="subtitle">Get the compensation you deserve after a motorcycle accident. Our expert solicitors help you claim up to £493,000+ with No Win No Fee guarantee.</p>
+                    
+                    <div class="compensation-highlight">
+                        <h3>Up to £493,000+</h3>
+                        <p>Maximum compensation for severe motorcycle accident injuries</p>
+                    </div>
+
+                    <div class="phone-number">☎ 0161 696 9685</div>
+                    <p style="text-align: center; color: #b8d4f0;">Free advice open 24/7</p>
+
+                    <div class="cta-buttons">
+                        <a href="tel:01616969685" class="btn btn-primary">Call Now for Free Advice</a>
+                        <a href="https://www.advice.co.uk/road-traffic-accident-claims/motorcycle-accident-claims#contact" class="btn btn-secondary">Start Your Claim Online</a>
+                    </div>
+                </div>
+
+                <div class="hero-form">
+                    <h3>Get Your Free Case Assessment</h3>
+                    <form action="https://www.advice.co.uk/road-traffic-accident-claims/motorcycle-accident-claims" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="details">Brief Details of Your Accident</label>
+                            <textarea id="details" name="details" rows="4" placeholder="Tell us what happened..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Get Free Assessment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose Our Motorcycle Accident Solicitors?</h2>
+            <p class="section-subtitle">We're here to help you every step of the way with expert legal support and no upfront costs</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">✓</div>
+                    <h3>100% No Win No Fee</h3>
+                    <p>You only pay if we win your case. No upfront costs or hidden fees.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚖️</div>
+                    <h3>Expert Legal Team</h3>
+                    <p>Specialist motorcycle accident solicitors with proven track records.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🕐</div>
+                    <h3>Free 24/7 Advice</h3>
+                    <p>Get immediate support and advice whenever you need it, day or night.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Maximum Compensation</h3>
+                    <p>We fight to get you the highest possible settlement for your injuries.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📞</div>
+                    <h3>Personal Support</h3>
+                    <p>Dedicated advisor assigned to your case from start to finish.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Quick Settlement</h3>
+                    <p>Most claims settled within 12 months with efficient case management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="compensation-section">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Motorcycle Accident Compensation Amounts</h2>
+            <p class="section-subtitle" style="color: #b8d4f0;">Based on Judicial College Guidelines - your compensation depends on the severity of your injuries</p>
+            
+            <div class="compensation-grid">
+                <div class="compensation-card">
+                    <div class="compensation-amount">£344,150 - £493,000</div>
+                    <h4>Very Severe Brain & Head Injury</h4>
+                    <p>Double incontinence, little ability to follow commands, full-time care required</p>
+                </div>
+                <div class="compensation-card">
+                    <div class="compensation-amount">£267,340 - £344,150</div>
+                    <h4>Moderately Severe Brain Injury</h4>
+                    <p>Severe disability with markedly impaired intellectual function</p>
+                </div>
+                <div class="compensation-card">
+                    <div class="compensation-amount">£183,190 - £267,340</div>
+                    <h4>Moderate Brain Injury (i)</h4>
+                    <p>Moderate to severe intellectual deficit with no employment prospects</p>
+                </div>
+                <div class="compensation-card">
+                    <div class="compensation-amount">£111,150 - £196,450</div>
+                    <h4>Severe Back Injury (i)</h4>
+                    <p>Severe spinal cord and nerve root damage causing serious disability</p>
+                </div>
+                <div class="compensation-card">
+                    <div class="compensation-amount">£117,460 - £165,860</div>
+                    <h4>Most Serious Leg Injuries</h4>
+                    <p>Extensive degloving or other extremely serious leg injuries</p>
+                </div>
+                <div class="compensation-card">
+                    <div class="compensation-amount">£1,000,000+</div>
+                    <h4>Multiple Severe Injuries</h4>
+                    <p>Combination of severe injuries with additional special damages</p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="tel:01616969685" class="btn btn-primary">Call Now: 0161 696 9685</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="process-section">
+        <div class="container">
+            <h2 class="section-title">How Our Claims Process Works</h2>
+            <p class="section-subtitle">Simple, straightforward steps to get your compensation</p>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Free Consultation</h3>
+                    <p>Call us or fill out our form for a free, no-obligation assessment of your case</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Case Evaluation</h3>
+                    <p>Our experts review your case and determine if you have a valid claim</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>No Win No Fee Agreement</h3>
+                    <p>If eligible, we take on your case with no upfront costs to you</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Build Your Case</h3>
+                    <p>We gather evidence, arrange medical assessments, and build a strong case</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <h3>Negotiate Settlement</h3>
+                    <p>We fight for maximum compensation through negotiation or court if necessary</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">6</div>
+                    <h3>Receive Compensation</h3>
+                    <p>Once settled, you receive your compensation within one month</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <p class="section-subtitle">Real results from real people who trusted us with their motorcycle accident claims</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>The team at Advice.co.uk were fantastic from start to finish. After my motorcycle accident, I was worried about the costs, but their No Win No Fee service gave me peace of mind. I received £45,000 compensation within 8 months.</p>
+                    <div style="margin-top: 20px; font-weight: bold; color: #ff6b6b;">- Sarah M., Manchester</div>
+                </div>
+                <div class="testimonial-card">
+                    <p>Professional, caring, and efficient. They handled everything while I focused on recovery. The compensation I received helped pay for private treatment and covered my lost earnings completely.</p>
+                    <div style="margin-top: 20px; font-weight: bold; color: #ff6b6b;">- James T., Liverpool</div>
+                </div>
+                <div class="testimonial-card">
+                    <p>I was hit by a car while on my motorbike and suffered serious injuries. The legal team fought hard for me and secured a settlement that will help support my family for years to come. Highly recommended.</p>
+                    <div style="margin-top: 20px; font-weight: bold; color: #ff6b6b;">- Michael R., Leeds</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2 style="font-size: 3rem; margin-bottom: 20px;">Ready to Start Your Claim?</h2>
+            <p style="font-size: 1.3rem; margin-bottom: 40px;">Don't wait - you have 3 years from your accident date to claim. Get your free consultation today.</p>
+            
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <a href="tel:01616969685" class="btn" style="background: rgba(255,255,255,0.2); color: white; border: 2px solid white;">📞 Call: 0161 696 9685</a>
+                <a href="https://www.advice.co.uk/road-traffic-accident-claims/motorcycle-accident-claims" class="btn" style="background: white; color: #10b981;">💬 Start Live Chat</a>
+                <a href="https://www.advice.co.uk/road-traffic-accident-claims/motorcycle-accident-claims" class="btn" style="background: rgba(255,255,255,0.2); color: white; border: 2px solid white;">📝 Contact Form</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contact Information</h4>
+                    <p>📍 301 The Tea Factory, St Peter's Square, Liverpool L1 4DQ</p>
+                    <p>📞 <a href="tel:01616969685">0161 696 9685</a></p>
+                    <p>📧 <a href="mailto:info@advice.co.uk">info@advice.co.uk</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <p><a href="https://www.advice.co.uk/road-traffic-accident-claims/motorcycle-accident-claims">Motorcycle Accident Claims</a></p>
+                    <p><a href="https://www.advice.co.uk/personal-injury-claims">Personal Injury Claims</a></p>
+                    <p><a href="https://www.advice.co.uk/work-accident-claims">Work Accident Claims</a></p>
+                    <p><a href="https://www.advice.co.uk/medical-negligence">Medical Negligence</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal Information</h4>
+                    <p><a href="https://www.advice.co.uk/privacy-policy">Privacy Policy</a></p>
+                    <p><a href="https://www.advice.co.uk/terms-of-use">Terms of Use</a></p>
+                    <p><a href="https://www.advice.co.uk/complaints">Complaints</a></p>
+                    <p><a href="https://www.advice.co.uk/cookie-policy">Cookie Policy</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>About Advice.co.uk</h4>
+                    <p>Advice is a trading name of Velasco Limited. Velasco is a claims management company authorised by the Financial Conduct Authority (FCA).</p>
+                    <div style="margin-top: 20px;">
+                        <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='30' viewBox='0 0 60 30'><rect width='60' height='30' fill='%23003d82'/><text x='30' y='20' font-family='Arial' font-size='8' fill='white' text-anchor='middle'>FCA</text></svg>" alt="FCA Regulated" style="max-width: 60px;">
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1);">
+                <p>&copy; 2025 Advice.co.uk. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe cards and sections
+        document.querySelectorAll('.feature-card, .compensation-card, .process-step, .testimonial-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
